@@ -1,4 +1,5 @@
 # pdx.rb Monthly Exercise
+## https://github.com/pdxruby/game_of_life
 
 Every month, we're going to encourage people to take some time to reflect on
 what we do as developers. We're going to focus on practicing our practice. To
