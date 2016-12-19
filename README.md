@@ -30,12 +30,10 @@ Yup... it's a pretty simple program that is fairly easy to explain.
 
 There's four rules:
 
-  1. Any cell that is alive, remains alive in the next generation with two or
-  three neighbors.
-  1. Any cell with three living neighbors becomes alive in the next generation,
-  as if by reproduction.
-  1. Any cell with fewer than two living neighbors dies, as if by starvation.
-  1. Any cell with more than three living neighbors dies, as if by overpopulation.
+  1. Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
+  1. Any live cell with two or three live neighbours lives on to the next generation.
+  1. Any live cell with more than three live neighbours dies, as if by overpopulation.
+  1. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 That's it.
 
